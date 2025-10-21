@@ -1,0 +1,23 @@
+# 编译产物
+*.exe
+mail-receiver
+mail-receiver.exe
+
+# Git 相关
+.git
+.gitignore
+
+# IDE 相关
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# 文档
+README.md
+*.md
+
+# 其他
+.DS_Store
+Thumbs.db 
