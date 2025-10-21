@@ -1,0 +1,7 @@
+services:
+  mail-receiver:
+    image: sstarbucks/mail-receiver:latest
+    container_name: mail-receiver
+    restart: unless-stopped
+    volumes:
+      - ./data/config.json:/app/config.json

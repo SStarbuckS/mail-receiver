@@ -1,0 +1,28 @@
+{
+    "app": {
+        "heartbeat_url": "https://your-heartbeat-url",
+        "heartbeat_interval": 30
+    },
+    "accounts": {
+        "my-account1": {
+            "server": "imap.example.com",
+            "port": 993,
+            "username": "your-email@example.com",
+            "password": "your-password",
+            "pollinterval": 60,
+            "sendpush": "https://your-webhook-url",
+            "folders": ["INBOX"],
+            "idletimeout": 20
+        },
+        "my-account2": {
+            "server": "imap.example.com",
+            "port": 993,
+            "username": "your-email@example.com",
+            "password": "your-password",
+            "pollinterval": 60,
+            "sendpush": "https://your-webhook-url",
+            "folders": ["INBOX"],
+            "idletimeout": 20
+        }
+    }
+}
